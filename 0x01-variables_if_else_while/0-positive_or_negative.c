@@ -1,4 +1,5 @@
 #include <stdlib.h>
+#include <stdio.h>
 #include <time.h>
 /* main - Determine if a number is positve,negative or zero.
 *
@@ -13,7 +14,7 @@ int main(void)
 	if(n>0){
 		printf("%d is positive\n", n);
 	}
-	else if(n ==0){4
+	else if(n ==0){
 		printf("%d is zero\n", n);
 	}
 	else 
