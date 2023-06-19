@@ -1,12 +1,11 @@
 #include <stdio.h>
 /**
-*Main - A program that prints all single
-*digit numbers of base 10 starting from 0 without using char
-*Return : Always 0 (success)
+* main - A function that prints 0 to 9
+* Return:0 (success)
 */
 int main(void)
 {
-	int i;
+int i;
 
 for (i = 0; i <= 9; i++)
 {
